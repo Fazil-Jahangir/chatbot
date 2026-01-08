@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "Goodbye"],
+      "responses": ["Bye!", "See you later!"]
+    },
+    {
+      "tag": "course",
+      "patterns": ["Python course", "Do you teach Python?"],
+      "responses": ["Yes! We offer Python training."]
+    }
+  ]
+}
